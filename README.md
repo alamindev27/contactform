@@ -26,11 +26,6 @@ Require the package using Composer:
 composer require alamindev27/contactform
 ```
 
-Then run:
-```bash
-composer update
-```
-
 ## Publish Config
 
 You can publish the config file to customize Admin Email:
@@ -46,11 +41,10 @@ You can change default Admin Email which called from `.env` file.
 You have to add a Variable in `.env file`:
 
 ```bash
-ADMIN_EMAIL='alamindev27@gmail.com' // It is admin receiver email
+ADMIN_EMAIL='alamindev27@gmail.com' # It is admin receiver email
 ```
 
-
-# Looking to send emails in production? Check out our Email SMTP product!
+# Looking to send emails in production? Check out your Email SMTP product!
 
 MAIL_MAILER=smtp 
 <br>
@@ -61,6 +55,12 @@ MAIL_PORT=2525
 MAIL_USERNAME=4a*********b 
 <br>
 MAIL_PASSWORD=1**********0d3
+
+
+Then run:
+```bash
+php artisan optimize
+```
 
 
 ## Requirements
