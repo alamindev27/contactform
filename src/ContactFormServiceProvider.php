@@ -19,6 +19,14 @@ class ContactFormServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+
+        $this->publishes([
+            __DIR__.'/../config/contact-form.php'=>config_path('contactform.php')
+
+            ],'contactform-config');
+
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'contactform');
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
 }
