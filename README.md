@@ -16,7 +16,7 @@ This is a lararavel contact form package. If you Install this package you will g
 ## Installation
 
 Install via Packagist:
-<a href='https://packagist.org/packages/alamindev27/contactform'>https://packagist.org/packages/alamindev27/contactform</a>
+<a href='https://packagist.org/packages/alamindev27/contactform' target="_blank">Click Here</a>
 
 <i>OR</i>
 
@@ -31,7 +31,7 @@ Then run:
 composer update
 ```
 
-## Publish Config (Optional)
+## Publish Config
 
 You can publish the config file to customize Admin Email:
 
@@ -40,9 +40,23 @@ php artisan vendor:publish --provider="Alamindev27\ContactForm\ContactFormServic
 
 ```
 
+This will create `config/contactform.php`.
+You can change default Admin Email which called from `.env` file.
 
-This will create config/contactform.php.
-You can change default Admin Email which called from .env file.
+You have to add a Variable in `.env file`:
+
+```bash
+ADMIN_EMAIL='alamindev27@gmail.com' // It is admin receiver email
+```
+
+
+# Looking to send emails in production? Check out our Email SMTP product!
+
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=4a*********b
+MAIL_PASSWORD=1**********0d3
 
 
 ## Requirements
