@@ -1,0 +1,27 @@
+{
+    "name": "alamindev27/contactform",
+    "description": "Laravel contact form package",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alamindev27\\Contactform\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Alamindev27\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "MD Al-Amin",
+            "email": "alamindev27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
