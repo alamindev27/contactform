@@ -38,6 +38,19 @@ php artisan vendor:publish --provider="Alamindev27\ContactForm\ContactFormServic
 This will create `config/contactform.php`.
 You can change default Admin Email which called from `.env` file.
 
+## Migrate database Schema
+
+```bash
+php artisan migrate
+```
+
+You can publish the config file to customize Admin Email:
+
+```bash
+php artisan vendor:publish --provider="Alamindev27\ContactForm\ContactFormServiceProvider" --tag=contactform-config
+
+```
+
 You have to add a Variable in `.env file`:
 
 ```bash
