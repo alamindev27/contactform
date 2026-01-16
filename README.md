@@ -75,6 +75,16 @@ Then run:
 php artisan optimize
 ```
 
+## You can use on you blade 
+```bash
+{{ url('/contact') }}
+```
+
+## Finally Testing 
+```bash
+http://127.0.0.1:8000/contact
+```
+
 
 ## Requirements
 
