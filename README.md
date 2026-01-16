@@ -52,10 +52,14 @@ ADMIN_EMAIL='alamindev27@gmail.com' // It is admin receiver email
 
 # Looking to send emails in production? Check out our Email SMTP product!
 
-MAIL_MAILER=smtp
-MAIL_HOST=sandbox.smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=4a*********b
+MAIL_MAILER=smtp 
+<br>
+MAIL_HOST=sandbox.smtp.mailtrap.io 
+<br>
+MAIL_PORT=2525 
+<br>
+MAIL_USERNAME=4a*********b 
+<br>
 MAIL_PASSWORD=1**********0d3
 
 
